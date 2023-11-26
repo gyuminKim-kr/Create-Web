@@ -476,7 +476,7 @@ hr.line_1 {
 .box_32 {
   background: #F8F7F3;
   width: 980px;
-  height: 567px;
+  height: 650px;
   padding: 10px;
 }
 
@@ -683,7 +683,6 @@ hr.line_1 {
   transform: rotate(-13deg);
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;

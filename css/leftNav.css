@@ -128,21 +128,12 @@ table {
   border-spacing: 0
 }
 
-/**
- * Styling navigation
- */
-
 header {
   margin-right: auto;
   margin-left: auto;
   max-width: 22.5rem;
-  /*margin-top:150px;*/
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
 }
-
-/**
- * Styling top level items
- */
 
 .nav a,
 .nav label {
@@ -167,10 +158,6 @@ header {
   cursor: pointer;
 }
 
-/**
- * Styling first level lists items
- */
-
 .group-list a,
 .group-list label {
   padding-left: 2rem;
@@ -184,10 +171,6 @@ header {
 .group-list label:hover {
   background: #131313;
 }
-
-/**
- * Styling second level list items
- */
 
 .sub-group-list a,
 .sub-group-list label {
@@ -203,10 +186,6 @@ header {
   background: #232323;
 }
 
-/**
- * Styling third level list items
- */
-
 .sub-sub-group-list a,
 .sub-sub-group-list label {
   padding-left: 6rem;
@@ -221,10 +200,6 @@ header {
   background: #333333;
 }
 
-/**
- * Hide nested lists
- */
-
 .group-list,
 .sub-group-list,
 .sub-sub-group-list {
@@ -236,13 +211,8 @@ header {
 }
 
 .nav__list input[type=checkbox]:checked+label+ul {
-  /* reset the height when checkbox is checked */
   max-height: 1000px;
 }
-
-/**
- * Rotating chevron icon
- */
 
 label>span {
   float: right;
